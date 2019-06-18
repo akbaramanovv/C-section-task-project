@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2f4f1e88c36e448f99f5214ec27cbacc" Name="Diagram1">
+        <EntityTypeShape EntityType="AKADEMIYAModel.Academy" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AKADEMIYAModel.Classroom" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AKADEMIYAModel.Education" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AKADEMIYAModel.Employee" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AKADEMIYAModel.Group" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AKADEMIYAModel.Position" Width="1.5" PointX="1.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AKADEMIYAModel.Student" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="AKADEMIYAModel.StudentsMark" Width="1.5" PointX="7.5" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AKADEMIYAModel.Task" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AKADEMIYAModel.Teacher" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="AKADEMIYAModel.Groups_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="AKADEMIYAModel.FK__Teachers__Specia__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="AKADEMIYAModel.Groups_fk3" ManuallyRouted="false" />
+        <AssociationConnector Association="AKADEMIYAModel.Employees_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="AKADEMIYAModel.Groups_fk2" ManuallyRouted="false" />
+        <AssociationConnector Association="AKADEMIYAModel.Students_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="AKADEMIYAModel.Tasks_fk0" ManuallyRouted="false" />
+        <AssociationConnector Association="AKADEMIYAModel.StudentsMarks_fk0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
